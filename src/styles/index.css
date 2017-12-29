@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+h1 {
+}
+h1 strong {
+	font-weight: 900;
+}
+h2 {
+	line-height: 20px;
+	font-size: 32px;
+	font-weight: 700;
+	margin: 0;
+	color: #555;
+}
+h3 {
+	font-size: 16px;
+	font-weight: 700;
+}
+h4 {
+	font-size: 20px;
+	color: #666;
+}
+h5 {
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 20px;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  z-index: 5;
+  background-color: black;
+  color: white;
+  border-radius: 0;
+  height: 30px;
+  margin: 0;
+  position: fixed;
+  width: 100vw;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.navbar .corner-logo {
+  margin-left: 10px;
+  margin-right: auto;
+}
+.navbar .logo-navbar {
+  margin-left: 30px;
+  height: 30px;
+}
+.navbar .nav-item-link {
+  margin-right: 30px;
+  display: flex;
+  color: white;
+  align-items: center;
+  height: 100%;
+}
+.navbar .nav-item-link:hover {
+  text-decoration: none;
+  border-bottom: 4px solid white;
+  margin-bottom: -4px;
+}
+
+/* Landing Page */
+.cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+  width: 100%;
+  background-image: url("food.jpg");
+  /*background-color: blue*/
+}
+.cover-image {
+  width: 100%;
+  z-index: -1
+}
+
+/* Services Section */
+#services-section {
+	padding: 120px 0;
+	background-color: #fff;
+}
+#services-section h4 {
+	font-weight: 700;
+}
+.space {
+	margin-top: 40px;
+}
+#services-section i.fa {
+	font-size: 40px;
+	margin-bottom: 20px;
+	transition: all 0.5s;
+	color: #0dbf9b;
+}
