@@ -4,24 +4,32 @@ body {
   font-family: sans-serif;
 }
 h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: #434343;
+  font-size: 50px;
+  margin: 0px;
 }
 h1 strong {
 	font-weight: 900;
 }
 h2 {
-	line-height: 20px;
-	font-size: 32px;
-	font-weight: 700;
-	margin: 0;
-	color: #555;
+  font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+  font-style: italic;
+	color: #434343;
+  margin-top: 10px;
+  margin-bottom: 20px
 }
 h3 {
-	font-size: 16px;
-	font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  color: #434343;
+  font-size: 35px;
+  font-style: bold;
+  margin: 0px;
 }
 h4 {
 	font-size: 20px;
-	color: #666;
+	color: #434343;
 }
 h5 {
 	text-transform: uppercase;
@@ -29,7 +37,15 @@ h5 {
 	line-height: 20px;
 }
 p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
+  font-size: 16px
+}
+.smallbutton {
+  background-color: #aec560;
+  font-family: 'Raleway';
+  font-weight: 900;
+  font-size: 20px;
+  border-radius: 10px
 }
 
 .container {
@@ -96,31 +112,39 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   height: 500px;
   width: 100%;
-  background-image: url("food.jpg");
-  /*background-color: blue*/
+  background-image: url("food2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
-.cover-image {
-  width: 100%;
-  z-index: -1
+.cover-titlebox {
+  width: 60%;
+  padding: 4vh;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px
 }
 
-/* Services Section */
-#services-section {
-	padding: 120px 0;
-	background-color: #fff;
+/* Info Boxes */
+.infobox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px
 }
-#services-section h4 {
-	font-weight: 700;
+
+.infobox-picture {
+  width: 13vw;
+  margin: 1vw;
 }
-.space {
-	margin-top: 40px;
-}
-#services-section i.fa {
-	font-size: 40px;
-	margin-bottom: 20px;
-	transition: all 0.5s;
-	color: #0dbf9b;
+
+.infobox-picture-weight {
+  width: 16vw;
+  margin-top: 2vw;
 }

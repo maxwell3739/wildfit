@@ -32,6 +32,7 @@ class RegisterModal extends React.Component {
             <Modal.Title className="modal-title">Signup</Modal.Title>
           </Modal.Header>
           <Modal.Body>
+            Join the Wildfit tribe for access to three free videos and dietary advice.
             <div className="form-group">
               <div className="col-xs-9 col-xs-offset-3">
                 <div id="loginFailure">{this.state.loginFailure}</div>
@@ -81,6 +82,7 @@ class RegisterModal extends React.Component {
       console.log(this.state.firstName, this.state.lastName, this.state.email)
       this.props.signup(this.state.firstName, this.state.lastName, this.state.email);
       this.props.closeModal();
+      this.props.openThanksModal();
     }
 
     _onFirstNameChange(e) {
