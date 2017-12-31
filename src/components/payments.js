@@ -1,7 +1,6 @@
 import React from 'react';
-import Firebase from '../firebase';
 
-import {Button, Col, Row, Grid } from 'react-bootstrap';
+import {Button} from 'react-bootstrap';
 
 
 class Payments extends React.Component {
